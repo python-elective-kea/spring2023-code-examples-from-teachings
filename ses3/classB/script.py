@@ -51,10 +51,19 @@ for i in range(3):
 li_comp = [(i,j) for i in range(3) for j in range(2)]
 
 
+# clothes
+
+colors = ['Black', 'White']
+sizes = ['s', 'm', 'l', 'xl']
+
+# [('Black', 's'), ('Black', 'm'), ('Black', 'l'), ('Black', 'xl'), ('White', 's'), ('White', 'm'), ('White', 'l'), ('White', 'xl')]
 
 
+clothes = [(c,s) for c in colors for s in sizes]
 
+x = [('Black', 'm'), ('White', 'm')]
 
+clothes = [(c,s) for c in colors for s in sizes if (c,s) not in x]
 
 
 
