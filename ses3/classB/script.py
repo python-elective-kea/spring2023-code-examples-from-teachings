@@ -37,6 +37,45 @@ tu = 70, 75, 80, 85
 let = [chr(letter) for letter in range(65, 91) if letter not in range(70, 80, 2)]
 
 
+# nested for loop
+
+# [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1) ....]
+
+l = []
+
+for i in range(3):
+    for j in range(2):
+        l.append((i,j))
+        
+
+li_comp = [(i,j) for i in range(3) for j in range(2)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
